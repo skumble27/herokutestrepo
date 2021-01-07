@@ -1,0 +1,1 @@
+postgresqlkey = '$MyTrainingInSQL'

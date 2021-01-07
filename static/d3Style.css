@@ -1,0 +1,92 @@
+
+.aText {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  text-anchor: middle;
+}
+
+.active {
+  font-weight: bold;
+  fill: beige;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive {
+  font-weight: lighter;
+  fill: #c9c9c9;
+  transition: fill 0.3s ease-out;
+  text-anchor: middle;
+}
+
+.inactive:hover {
+  fill: rgb(255, 120, 226);
+  cursor: pointer;
+  font-weight: bolder;
+}
+
+/* font size dependent on radius, see app.js */
+.countryText {
+  font-family: 'Nerko One', cursive;
+  fill: black;
+  text-anchor: middle;
+  font-size:10px;
+}
+
+.countryCircle {
+  fill: beige;
+  stroke: black;
+  stroke-width: 2px;
+  
+}
+
+.stateCircle:hover {
+  fill: #6bb0ff;
+  stroke:white;
+  stroke-width: 8px;
+  
+}
+
+
+.chart {
+  display: block;
+  margin: 0;
+}
+
+.d3-tip {
+  padding: 6px;
+  font-size: 18px;
+  line-height: 1;
+  line-height: 1.5em;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-transform: capitalize;
+  background: rgb(255, 119, 226);
+  border-radius: 4px;
+}
+
+.axisColour{
+  color:beige;
+  
+}
+
+h5{
+  color: rgb(0, 0, 255);
+}
+
+/* Mobile Rules */
+@media screen and (max-width: 530px) {
+  .stateText {
+    display: none;
+  }
+
+  .aText {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .aText {
+    font-size: 13px;
+  }
+}
