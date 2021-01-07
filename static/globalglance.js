@@ -199,7 +199,7 @@ are changed */
   }
 /* Reading into the CSV data to plot the initial values */
 
-d3.json("http://127.0.0.1:5000/worlddata").then(function(worldData){
+d3.json("/worlddata").then(function(worldData){
 
     console.log(worldData);
 

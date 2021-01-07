@@ -1,5 +1,5 @@
 function topTenCountries(id){
-    d3.json('http://127.0.0.1:5000/worlddata').then(function(data){
+    d3.json('/worlddata').then(function(data){
       
       // Checking to see if the dataset loads
       console.log(data);
