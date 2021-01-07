@@ -24,7 +24,7 @@ from entrancekey import postgresqlkey
 #################################################
 
 # Creating a search engine
-engine = create_engine(f'postgresql+psycopg2://postgres:{postgresqlkey}@localhost:5432/worldwidedata')
+engine = create_engine(f'postgres://kihbtaclrvmlfp:b59a4f4f720f48a3aaf3c62b95b4942f08ce0bb9e459c1b4e3e45070f676917e@ec2-52-205-61-60.compute-1.amazonaws.com:5432/d18tj823hrqm4k')
 
 # reflect an existing database into a new model
 Base = automap_base()
