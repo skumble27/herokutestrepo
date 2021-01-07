@@ -16,7 +16,7 @@ from flask_cors import CORS, cross_origin
 
 from flask import Flask, render_template
 
-from entrancekey import postgresqlkey
+# from entrancekey import postgresqlkey
 
 
 #################################################
